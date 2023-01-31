@@ -1,0 +1,246 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  margin: 0px auto;
+}
+.mobile_greet {
+  display: none;
+}
+.logo {
+  align-items: center;
+  margin: 0 auto;
+  display: table;
+  width: 100px;
+  margin-top: 2%;
+}
+.mobile_block {
+  display: none;
+}
+
+.logo_mobile {
+  display: none;
+}
+.signin__holder {
+  padding: 5rem 2rem;
+
+  margin: 2% 35%;
+  border-radius: 5px;
+  outline: 0.2px solid rgba(217, 216, 216, 0.71);
+}
+
+.signin__holder__title {
+  display: block;
+  font-size: 1.6rem;
+  margin-top: -50px;
+  font-weight: 500;
+}
+
+.signin_holder_subtitle {
+  display: block;
+  font-weight: bold;
+
+  color: rgb(59, 57, 57);
+  margin-top: 12px;
+}
+
+.signin_input {
+  margin-top: 12px;
+  width: 100%;
+  padding-left: 12px;
+  height: 2.2rem;
+  font-size: 12px;
+  border-radius: 3px;
+  outline: none;
+  border: 0.5px solid gray;
+}
+
+.login_button {
+  width: 100%;
+  height: 2.2rem;
+
+  margin-top: 12px;
+  border-radius: 3px;
+  border: 0.5px solid gray;
+
+  background: linear-gradient(
+    90deg,
+    rgba(244, 212, 132, 1) 27%,
+    rgba(247, 199, 80, 1) 74%
+  );
+}
+.login_button:hover {
+  cursor: pointer;
+}
+
+.terms_condition {
+  display: table;
+  margin-top: 12px;
+
+  font-size: 12px;
+}
+
+.terms_color {
+  font-size: 12px;
+
+  color: #0b89cd;
+}
+
+.help_tag {
+  display: block;
+  color: #0b89cd;
+
+  margin-top: 12px;
+}
+
+.newuser__btn {
+  display: table;
+  margin: 0 auto;
+
+  font-size: 13px;
+}
+
+.newuser_holder {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.newuser_button {
+  margin: 0px auto;
+  display: table;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 12px;
+
+  padding: 4px 2rem;
+}
+.newuser_button:hover {
+  cursor: pointer;
+}
+
+.radio_btn {
+  display: none;
+}
+
+.newuserbtn {
+  display: table;
+  margin: 0 auto;
+  width: 22rem;
+}
+.customHr {
+  border: 0;
+  display: block;
+  margin-top: 20px;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* ------------------------------------------------------- */
+/* mobile  screen */
+
+@media screen and (max-width: 768px) {
+  .signin__holder {
+    padding: 5rem 2rem;
+
+    margin: 2% 20%;
+    border-radius: 5px;
+    outline: 0.2px solid rgba(217, 216, 216, 0.71);
+  }
+}
+
+
+/* -------------------------------------------------- */
+
+@media screen and (max-width: 720px) {
+  .logo_mobile {
+    display: inline;
+    width: 90px;
+    margin-top: 2px;
+
+    /* padding: 1rem; */
+  }
+  .row_container {
+    display: flex;
+
+    /* margin: 0px auto; */
+    align-items: center;
+  }
+
+  .radio_btn {
+    display: inline;
+  }
+  .bg_color {
+    width: 100%;
+    padding: 0.7rem;
+
+    background-color: #232f3e;
+  }
+
+  .logo {
+    display: none;
+  }
+  .mobile_greet {
+    margin-top: 2rem;
+    margin-left: 12px;
+    display: inline;
+    font-size: 16px;
+  }
+  .mobile_block {
+    display: inline;
+  }
+
+  .row_container {
+    padding: 10px 2px;
+  }
+
+  .row_container > .radio_btn {
+    margin-right: 12px;
+  }
+
+  .signin__holder {
+    display: table;
+    margin: 10px 20px;
+    padding: 1rem;
+  }
+
+  .signin__holder__title {
+    display: none;
+  }
+
+  .signin_holder_subtitle {
+    display: none;
+  }
+  .signin_input {
+    width: 100%;
+    display: table;
+    padding-left: 12px;
+    margin: 0px auto;
+    height: 3rem;
+  }
+  .login_button {
+    display: table;
+
+    margin: 12px auto;
+    width: 100%;
+    height: 3rem;
+  }
+
+  .newuser__btn {
+    display: none;
+  }
+
+  .newuser_button {
+    display: none;
+  }
+}
